@@ -5,7 +5,7 @@ import { useEffect } from "react"
 
 
 function App() {
-  const {pathname} = useLocation()
+  const { pathname } = useLocation()
 
   useEffect(() => {
     window.scroll(0, 0)
